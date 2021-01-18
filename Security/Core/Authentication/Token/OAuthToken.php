@@ -297,6 +297,7 @@ class OAuthToken extends AbstractToken
 
     public function __serialize(): array
     {
+        // test
         return [
             $this->accessToken,
             $this->rawToken,
